@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:textColorPrimary">@android:color/black</item> <!-- Set default text color to black -->
+    </style>
+
+
+    <!-- Custom style for menu item text -->
+    <style name="MenuItemTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Custom Popup Menu Style -->
+    <style name="PopupMenuStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

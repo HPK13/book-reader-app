@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:textAppearance="@style/MenuItemTextStyle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_us"
+        android:title="About Us"
+        android:textAppearance="@style/MenuItemTextStyle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="Sign Out"
+        android:textAppearance="@style/MenuItemTextStyle"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
